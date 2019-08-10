@@ -317,7 +317,7 @@ section {
   .about-lockup .face {
     height: 220px;
     width: 200px;
-    background: url(/assets/img/bio-photo.png);
+    background: url(/assets/img/bio-photo.jpg);
     background-size: cover;
     background-position: center;
     order: 1; }
