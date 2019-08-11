@@ -233,9 +233,9 @@ header nav a, footer .content-wrap .copyright, footer .content-wrap a, .about-lo
   font-text-transform: uppercase; }
 
 header {
-  height: 80px;
+  height: 200px;
   max-width: 960px;
-  background: url(../img/image-bg.png) center center;
+  background: url(../img/image-bg.png) right bottom;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
