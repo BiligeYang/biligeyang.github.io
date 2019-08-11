@@ -236,7 +236,8 @@ header {
   height: 80px;
   max-width: 960px;
   background: url(../img/image-bg.png) center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0 auto;
   float: none; }
   header nav {
