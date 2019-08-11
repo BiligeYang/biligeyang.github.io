@@ -237,7 +237,7 @@ header {
   max-width: 960px;
   background: url(../img/image-bg.png) right bottom;
   background-color: white
-  background-size: 60%;
+  background-size: 70% 60%;
   background-repeat: no-repeat;
   margin: 0 auto;
   float: none; }
