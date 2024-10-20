@@ -40,11 +40,20 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
+    <!-- Timeline -->
+    {% if page.timeline %}
       <h2>
         Timeline
         <!-- <a style="color: inherit">Timeline</a> -->
+      </h2>
+      {% include timeline.liquid limit=true %}
+    {% endif %}
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        News
+        <!-- <a style="color: inherit">News</a> -->
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}

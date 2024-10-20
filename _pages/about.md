@@ -7,7 +7,7 @@ subtitle: Research in Robotics @ Yale University
 profile:
   align: right
   image: prof_pic_billy.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>9 Hillhouse Ave</p>
     <p>Mason Lab Room 118</p>
@@ -16,7 +16,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-projects: true 
+timeline: true
 ---
 
 I am a PhD candidate in the School of Engineering & Applied Science at Yale University. My thesis committee is composed of Rebecca Kramer-Bottiglio (advisor), Aaron Dollar, Ian Abraham, and Brian Scassellati. My research is focused on novel robotic systems and their control in unstructured environments, especially in the amphibious environment. 
